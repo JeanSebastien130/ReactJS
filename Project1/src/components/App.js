@@ -1,27 +1,41 @@
 import "./App.css";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { uuid } from "uuidv4";
 import Header from "./header";
 import AddContact from "./addContact";
 import ContactList from "./ContactList";
 
 function App() {
-  const contacts = [
-    {
-      id: "1",
-      name: "JS",
-      email: "js.morel130@gmail.com",
-    },
-    {
-      id: "2",
-      name: "Camille",
-      email: "Camille@gmail.com",
-    },
-  ];
+  const LOCAL_STORAGE_KEY = "contacts";
+  const [contacts, setContacts] = useState([]);
+
+  const addContactHandler = (contact) => {
+    console.log(contact);
+    setContacts([...contacts, { id: uuid(), ...contact }]);
+  };
+
+  useEffect(() => {
+    const retriveContacts = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
+    if (retriveContacts) setContacts(retriveContacts);
+  }, []);
+
+  const removeContactHandler = (id) => {
+    const newContactList = contacts.filter((contact) => {
+      return contact.id !== id;
+    });
+
+    setContacts(newContactList);
+  };
+
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
+  }, [contacts]);
+
   return (
     <div className="ui container">
       <Header />
-      <AddContact />
-      <ContactList contacts={contacts} />
+      <AddContact addContactHandler={addContactHandler} />
+      <ContactList contacts={contacts} getContactId={removeContactHandler} />
     </div>
   );
 }

@@ -1,19 +1,19 @@
 import React from "react";
 
-class addContact extends React.Component {
+class AddContact extends React.Component {
   state = {
     name: "",
     email: "",
   };
+
   add = (e) => {
     e.preventDefault();
     if (this.state.name === "" || this.state.email === "") {
-      alert("All the fields are mandatory");
+      alert("ALl the fields are mandatory!");
       return;
     }
     this.props.addContactHandler(this.state);
     this.setState({ name: "", email: "" });
-    console.log(this.state);
   };
   render() {
     return (
@@ -28,9 +28,9 @@ class addContact extends React.Component {
               placeholder="Name"
               value={this.state.name}
               onChange={(e) => this.setState({ name: e.target.value })}
-            ></input>
+            />
           </div>
-          <div>
+          <div className="field">
             <label>Email</label>
             <input
               type="text"
@@ -38,13 +38,13 @@ class addContact extends React.Component {
               placeholder="Email"
               value={this.state.email}
               onChange={(e) => this.setState({ email: e.target.value })}
-            ></input>
+            />
           </div>
-          <button className="ui blue button">Add</button>
+          <button className="ui button blue">Add</button>
         </form>
       </div>
     );
   }
 }
 
-export default addContact;
+export default AddContact;

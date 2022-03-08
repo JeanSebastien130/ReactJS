@@ -1,0 +1,20 @@
+.right-sidebar-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  height: fit-content;
+  display: flex;
+  flex-grow: 1;
+  padding: 0;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+.column-three {
+  right: 0;
+  top: 0;
+  width: 100vh;
+  position: absolute;
+  transform: rotate(90deg) translateX(100%);
+  transform-origin: top right;
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+body {
+  font-family: "Lora", serif;
+}
+
+.backgroundimg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/*
+.grid-one {
+  grid-column: 1/4;
+}
+.grid-two {
+  grid-column: 1/4;
+}
+.grid-three {
+  grid-column: 1/4;
+} */

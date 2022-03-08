@@ -7,6 +7,7 @@ import ReachMe from "./components/ReachMe";
 import Bluemarble from "./images/bluemarble.jpg";
 import "./App.css";
 import "./Stylesheet/RightSidebar.css";
+import "./Stylesheet/LeftSidebar.css";
 import React from "react";
 
 function App() {
@@ -15,16 +16,14 @@ function App() {
       className="backgroundimg"
       style={{ backgroundImage: `url(${Bluemarble})` }}
     >
-      <div className="grid-one">
+      <div className="column-one">
         <LeftSidebar />
       </div>
-      <div className="grid">
-        <div className="grid-two">
-          <Banner />
-          <AboutMe />
-          <Projects />
-          <ReachMe />
-        </div>
+      <div className="column-two">
+        <Banner />
+        <AboutMe />
+        <Projects />
+        <ReachMe />
       </div>
       <div className="column-three">
         <RightSidebar />

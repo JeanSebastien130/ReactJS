@@ -4,6 +4,10 @@ body {
   font-family: "Lora", serif;
 }
 
+li {
+  font-size: larger;
+}
+
 .backgroundimg {
   position: fixed;
   top: 0;
@@ -12,13 +16,7 @@ body {
   width: 100%;
 }
 
-/*
-.grid-one {
-  grid-column: 1/4;
+.column-two {
+  margin: 0px 80px;
+  height: 100vh;
 }
-.grid-two {
-  grid-column: 1/4;
-}
-.grid-three {
-  grid-column: 1/4;
-} */

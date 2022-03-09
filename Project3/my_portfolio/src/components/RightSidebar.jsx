@@ -1,3 +1,5 @@
+import "../Stylesheet/RightSidebar.css";
+
 const RightSidebar = () => {
   return (
     <>

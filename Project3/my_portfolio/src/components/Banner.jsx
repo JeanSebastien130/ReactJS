@@ -5,10 +5,15 @@ import "../Stylesheet/Banner.css";
 const Banner = () => {
   return (
     <div>
-      <h1>Jean-Sébastien</h1>
-      <h1>Morel</h1>
-      <h3>Full-Stack Developer</h3>
+      <div className="name">
+        <h1>Jean-Sébastien</h1>
+        <h1>Morel</h1>
+      </div>
+      <div className="fullstack">
+        <h3>Full-Stack Developer</h3>
+      </div>
       <img className="beachpic" src={AaronBeach} alt="img" />
+      <div class="vl"></div>
       <img className="bridgepic" src={AaronBridge} alt="img" />
     </div>
   );

@@ -1,7 +1,25 @@
 .bridgepic {
-  height: 30px;
+  position: fixed;
+  left: 55%;
+  height: 415px;
+  opacity: 0.5;
+  bottom: 85px;
+  clip: rect(1px 18em 30rem 2ch);
 }
 
 .beachpic {
-  height: 30px;
+  position: fixed;
+  left: 30%;
+  height: 415px;
+  opacity: 0.5;
+  top: 85px;
+  clip: rect(1px 18em 30rem 2ch);
+}
+
+.vl {
+  position: fixed;
+  border-left: 2px solid black;
+  height: 400px;
+  left: 52%;
+  top: 228px;
 }

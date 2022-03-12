@@ -18,3 +18,18 @@
   transform: rotate(-90deg) translateY(100%);
   transform-origin: bottom left;
 }
+
+.Linkedinpic {
+  height: 70px;
+  opacity: 0.5;
+  transform: rotate(90deg);
+}
+
+.Githubpic {
+  height: 70px;
+  opacity: 0.5;
+  transform: rotate(90deg);
+}
+
+.Links {
+}

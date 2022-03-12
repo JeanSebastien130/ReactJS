@@ -1,25 +1,23 @@
-.bridgepic {
+.mountainpic {
   position: fixed;
-  left: 55%;
-  height: 415px;
+  left: 45%;
+  height: 355px;
   opacity: 0.5;
   bottom: 85px;
-  clip: rect(1px 18em 30rem 2ch);
 }
 
 .beachpic {
   position: fixed;
-  left: 30%;
+  left: 22%;
   height: 415px;
   opacity: 0.5;
-  top: 85px;
+  top: 106px;
   clip: rect(1px 18em 30rem 2ch);
 }
 
-.vl {
+.AllDetails {
   position: fixed;
-  border-left: 2px solid black;
-  height: 400px;
-  left: 52%;
-  top: 228px;
+  text-align: right;
+  left: 70%;
+  top: 9%;
 }

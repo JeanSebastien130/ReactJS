@@ -1,20 +1,32 @@
 .mountainpic {
   height: 280px;
   opacity: 0.5;
+  left: 44%;
+  top: 50%;
+  position: absolute;
 }
 
 .beachpic {
   height: 280px;
   opacity: 0.5;
+  position: absolute;
+  left: 18%;
+  top: 13%;
 }
 
 .AllDetails {
   text-align: right;
+  left: 69%;
+  top: 10%;
+  position: absolute;
 }
 
 .entirecode {
-  position: absolute;
-  align-items: center;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100px;
 }
 
 .column-two {
@@ -22,4 +34,8 @@
   margin-left: 7%;
   height: 100vh;
   position: relative;
+}
+.name > h1 {
+  margin: 0;
+  color: white;
 }

@@ -6,22 +6,23 @@ const LeftSidebar = () => {
   return (
     <>
       <ul className="left-sidebar-list">
-        <li style={{ marginLeft: "35px" }}>Scroll for more</li>
-        <div className="Links">
-          <li>
-            <a href="https://www.linkedin.com/in/jsmorel/">
-              <img
-                src={LinkedIn}
-                className="Linkedinpic"
-                alt="Linkedinlink"
-              ></img>
+        <li style={{ marginLeft: "60px", marginTop: "10px" }}>
+          Scroll for more
+        </li>
+        {/* <div className="Links"> */}
+        <li style={{ marginRight: "20px" }}>
+          <a href="https://www.linkedin.com/in/jsmorel/">
+            <img
+              src={LinkedIn}
+              className="Linkedinpic"
+              alt="Linkedinlink"
+            ></img>
+            <a href="https://github.com/JeanSebastien130">
+              <img src={Github} className="Githubpic" alt="GithubLink"></img>
             </a>
-          </li>
-          <a href="https://github.com/JeanSebastien130">
-            <img src={Github} className="Githubpic" alt="GithubLink"></img>
           </a>
-          <li></li>
-        </div>
+        </li>
+        {/* </div> */}
       </ul>
     </>
   );

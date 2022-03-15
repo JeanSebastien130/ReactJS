@@ -1,23 +1,25 @@
 .mountainpic {
-  position: fixed;
-  left: 45%;
-  height: 355px;
+  height: 280px;
   opacity: 0.5;
-  bottom: 85px;
 }
 
 .beachpic {
-  position: fixed;
-  left: 22%;
-  height: 415px;
+  height: 280px;
   opacity: 0.5;
-  top: 106px;
-  clip: rect(1px 18em 30rem 2ch);
 }
 
 .AllDetails {
-  position: fixed;
   text-align: right;
-  left: 70%;
-  top: 9%;
+}
+
+.entirecode {
+  position: absolute;
+  align-items: center;
+}
+
+.column-two {
+  margin-right: 7%;
+  margin-left: 7%;
+  height: 100vh;
+  position: relative;
 }

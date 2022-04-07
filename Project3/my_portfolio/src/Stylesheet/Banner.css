@@ -3,39 +3,47 @@
   opacity: 0.5;
   left: 44%;
   top: 50%;
-  position: absolute;
+  width: 100%;
 }
 
-.beachpic {
+.bridgepic {
   height: 280px;
   opacity: 0.5;
-  position: absolute;
   left: 18%;
   top: 13%;
 }
 
-.AllDetails {
+.AllDetailsandbridge {
   text-align: right;
   left: 69%;
   top: 10%;
-  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .entirecode {
-  left: 0;
-  right: 0;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
 }
 
 .column-two {
   margin-right: 7%;
   margin-left: 7%;
   height: 100vh;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .name > h1 {
   margin: 0;
   color: white;
+}
+
+.fullstack > h3 {
+  margin-top: 20px;
+  color: black;
 }

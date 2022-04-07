@@ -1,33 +1,30 @@
-.mountainpic {
-  height: 280px;
+.treepic {
+  height: 365px;
   opacity: 0.5;
   left: 44%;
   top: 50%;
-  width: 100%;
 }
 
-.bridgepic {
-  height: 280px;
+.countrysidepic {
+  height: 365px;
   opacity: 0.5;
   left: 18%;
   top: 13%;
 }
 
-.AllDetailsandbridge {
-  text-align: right;
-  left: 69%;
-  top: 10%;
+.deuxdiv {
+  height: 100%;
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  margin-bottom: 20px;
+  flex-direction: column;
 }
 
 .entirecode {
   display: flex;
   align-items: center;
-  flex-direction: column;
   width: 60%;
+  justify-content: space-between;
+  height: 70vh;
 }
 
 .column-two {
@@ -38,12 +35,21 @@
   justify-content: center;
   align-items: center;
 }
-.name > h1 {
-  margin: 0;
-  color: white;
+
+.barre {
+  border-left: 0.1px;
+  border-style: solid;
+  height: 200px;
 }
 
-.fullstack > h3 {
-  margin-top: 20px;
+.alldetails > h1 {
+  margin: 0;
+  color: white;
+  text-align: right;
+}
+
+.fullstack > h2 {
+  margin:0;
   color: black;
+  text-align: left;
 }

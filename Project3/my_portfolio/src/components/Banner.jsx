@@ -1,26 +1,27 @@
-import AaronBridge from "../images/AaronBridge.jpg";
+import AaronTree from "../images/AaronTree.jpg";
+import AaronCountryside from "../images/AaronCountryside.jpg";
 // import AaronBridge from "../images/AaronBridge.jpg";
-import AaronMountain from "../images/AaronMountain.jpg";
+// import AaronMountain from "../images/AaronMountain.jpg";
 // import AaronSmog from "../images/AaronSmog.jpg";
 import "../Stylesheet/Banner.css";
 
 const Banner = () => {
   return (
     <div className="entirecode">
-      <div className="AllDetailsandbridge">
-          <img className="bridgepic" src={AaronBridge} alt="img" />
-        <div className="allDetails">
-          <div className="name">
-            <h1>Jean-Sébastien</h1>
-            <h1>Morel</h1>
-          </div>
-          <div className="fullstack">
-            <h3>Full-Stack Developer</h3>
-          </div>
+      <div className="deuxdiv">
+          <img className="countrysidepic" src={AaronCountryside} alt="img" />
+        <div className="fullstack">
+          <h2>Full-Stack Developer</h2>
         </div>
       </div>
-      {/* <div class="vl"></div> */}
-      <img className="mountainpic" src={AaronMountain} alt="img" />
+      <div className="barre"></div>
+      <div className="deuxdiv">
+        <div className="alldetails">
+            <h1>Jean-Sébastien</h1>
+            <h1>Morel</h1>
+        </div>
+        <img className="treepic" src={AaronTree} alt="img" />
+      </div>
     </div>
   );
 };

@@ -5,9 +5,9 @@ const RightSidebar = () => {
   return (
     <>
       <ul className="right-sidebar-list">
-        <li><Link to='/AboutMe'>About me</Link></li>
-        <li style={{ marginRight: "25px" }}><Link to='MyProjects'>My projects</Link></li>
-        <li style={{ marginRight: "100px" }}><Link to='ReachMe'>Reach me</Link></li>
+        <li><Link className="link" style={{ textDecoration: 'none' }} to='/AboutMe'>About me</Link></li>
+        <li style={{ marginRight: "25px" }}><Link className="link" style={{ textDecoration: 'none' }} to='MyProjects'>My projects</Link></li>
+        <li style={{ marginRight: "100px" }}><Link className="link" style={{ textDecoration: 'none' }} to='ReachMe'>Reach me</Link></li>
       </ul>
     </>
   );

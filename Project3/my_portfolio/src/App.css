@@ -15,3 +15,8 @@ li {
   height: 100%;
   width: 100%;
 }
+
+.link:visited {
+  text-decoration: none;
+  color: black;
+}

@@ -1,6 +1,8 @@
 import "../Stylesheet/LeftSidebar.css";
 import LinkedIn from "../images/linkedinlogoblack.png";
 import Github from "../images/github.png";
+import TemporaryLogo from "../images/temporarylogo.png"
+import { NavLink } from "react-router-dom";
 
 const LeftSidebar = () => {
   return (
@@ -22,7 +24,11 @@ const LeftSidebar = () => {
             </a>
           </a>
         </li>
-        {/* </div> */}
+        <nav>
+          <li style={{ marginLeft: "68px", marginTop: "10px" }}>
+            <NavLink className="link" style={{ textDecoration: 'none' }} to='/'><img className="mainlogo" src={TemporaryLogo} alt=""/></NavLink>
+          </li>
+        </nav>
       </ul>
     </>
   );

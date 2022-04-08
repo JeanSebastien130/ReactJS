@@ -1,8 +1,9 @@
 .profilepic {
-    height: 200px;
+    height: 450px;
+    opacity: 0.85;
 }
 
-.homepagebanner {
+.aboutmebanner {
     height: 100vh;
     display: flex;
     justify-content: center;

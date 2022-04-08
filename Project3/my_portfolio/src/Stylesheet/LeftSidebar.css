@@ -35,3 +35,10 @@
   transform: rotate(-90deg) translateX(85%) translateY(667%);
   position: fixed;
 }
+
+.mainlogo {
+  height: 50px;
+  display: block;
+  opacity: 0.5;
+  transform: rotate(90deg);
+}

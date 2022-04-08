@@ -21,18 +21,10 @@ function App() {
         </div>
         <div className="column-two">
         <Switch>
-          <Route exact path="/">
-            <Banner />
-          </Route> 
-          <Route exact path="/AboutMe">
-            <AboutMe />
-          </Route>
-          <Route exact path="/MyProjects">
-            <MyProjects />
-          </Route>
-          <Route exact path="/ReachMe">
-            <ReachMe />
-          </Route>
+          <Route exact path="/" component={Banner}/>
+          <Route exact path="/AboutMe" component={AboutMe}/>
+          <Route exact path="/MyProjects" component={MyProjects}/>
+          <Route exact path="/ReachMe" component={ReachMe}/>
         </Switch> 
         </div>
         <div className="column-three">

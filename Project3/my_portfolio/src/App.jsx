@@ -21,16 +21,16 @@ function App() {
         </div>
         <div className="column-two">
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Banner />
           </Route> 
-          <Route path="/AboutMe">
+          <Route exact path="/AboutMe">
             <AboutMe />
           </Route>
-          <Route path="/MyProjects">
+          <Route exact path="/MyProjects">
             <MyProjects />
           </Route>
-          <Route path="/ReachMe">
+          <Route exact path="/ReachMe">
             <ReachMe />
           </Route>
         </Switch> 

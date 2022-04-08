@@ -41,4 +41,5 @@
   display: block;
   opacity: 0.5;
   transform: rotate(90deg);
+  margin-right: 20px;
 }

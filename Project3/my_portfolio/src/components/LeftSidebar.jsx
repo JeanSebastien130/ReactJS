@@ -8,11 +8,8 @@ const LeftSidebar = () => {
   return (
     <>
       <ul className="left-sidebar-list">
-        <li style={{ marginLeft: "68px", marginTop: "10px" }}>
-          Scroll for more
-        </li>
         {/* <div className="Links"> */}
-        <li style={{ marginRight: "20px" }}>
+        <li style={{ marginRight: "20px", marginLeft: "20px" }}>
           <a href="https://www.linkedin.com/in/jsmorel/" target="_blank" rel="noreferrer">
             <img
               src={LinkedIn}
@@ -23,6 +20,9 @@ const LeftSidebar = () => {
               <img src={Github} className="Githubpic" alt="GithubLink" ></img>
             </a>
           </a>
+        </li>
+        <li style={{marginTop: "10px" }}>
+          Scroll for more
         </li>
         <nav>
           <li style={{ marginLeft: "68px", marginTop: "10px" }}>

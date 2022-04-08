@@ -15,7 +15,7 @@ const Banner = () => {
           <h2>Full-Stack Developer</h2>
         </div>
       </div>
-      <div className="barre"></div>
+      <div className="barrebanner"></div>
       <div className="deuxdiv">
         <div className="alldetails">
             <h1>Jean-Sébastien</h1>

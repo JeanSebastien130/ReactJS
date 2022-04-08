@@ -7,6 +7,7 @@ import "../Stylesheet/Banner.css";
 
 const Banner = () => {
   return (
+  <div className="homepagebanner">
     <div className="entirecode">
       <div className="deuxdiv">
           <img className="countrysidepic" src={AaronCountryside} alt="img" />
@@ -23,6 +24,7 @@ const Banner = () => {
         <img className="treepic" src={AaronTree} alt="img" />
       </div>
     </div>
+  </div>
   );
 };
 

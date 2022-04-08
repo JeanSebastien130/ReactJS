@@ -1,7 +1,12 @@
+import ProfilePic from "../images/Profile.jpeg"
+import "../Stylesheet/AboutMe.css"
+
 const AboutMe = () => {
   return(
-    <div>
-      Testtest
+    <div className="entirecodeaboutme">
+      <div>
+        <img className='profilepic' src={ProfilePic} alt="ProfilePic" />
+      </div>
     </div>
     );
 };

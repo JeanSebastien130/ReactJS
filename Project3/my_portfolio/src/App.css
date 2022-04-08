@@ -20,3 +20,9 @@ li {
   text-decoration: none;
   color: black;
 }
+
+.column-two {
+  margin-right: 7%;
+  margin-left: 7%;
+  height: 100vh;
+}

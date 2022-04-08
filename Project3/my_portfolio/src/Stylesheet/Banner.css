@@ -27,9 +27,7 @@
   height: 70vh;
 }
 
-.column-two {
-  margin-right: 7%;
-  margin-left: 7%;
+.homepagebanner {
   height: 100vh;
   display: flex;
   justify-content: center;

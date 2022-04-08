@@ -1,0 +1,10 @@
+.profilepic {
+    height: 200px;
+}
+
+.homepagebanner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

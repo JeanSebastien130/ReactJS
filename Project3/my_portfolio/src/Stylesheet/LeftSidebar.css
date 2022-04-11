@@ -6,40 +6,34 @@
   display: flex;
   flex-grow: 1;
   padding: 0;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
-.column-one {
-  left: 0;
+.column-one
+ { left: 0;
   bottom: 0;
   width: 100vh;
   position: absolute;
   transform: rotate(-90deg) translateY(100%);
-  transform-origin: bottom left;
-}
+  transform-origin: bottom left;}
 
-.Linkedinpic {
-  height: 45px;
+.Linkedinpic
+  {height: 45px;
   opacity: 0.4;
-  transform: rotate(90deg);
-}
+  transform: rotate(90deg);}
 
-.Githubpic {
-  height: 45px;
+.Githubpic
+  {height: 45px;
   opacity: 0.5;
   transform: rotate(90deg);
   margin-left: 10px;
 }
+.Links
+  {transform: rotate(-90deg) translateX(85%) translateY(667%);
+  position: fixed;}
 
-.Links {
-  transform: rotate(-90deg) translateX(85%) translateY(667%);
-  position: fixed;
-}
-
-.mainlogo {
-  height: 50px;
+.mainlogo
+  {height: 50px;
   display: block;
   opacity: 0.5;
   transform: rotate(90deg);
-  margin-right: 20px;
-}
+  margin-right: 20px;}

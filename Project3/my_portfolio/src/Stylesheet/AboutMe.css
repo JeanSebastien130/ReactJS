@@ -1,23 +1,23 @@
-.profilepic {
-    height: 450px;
+.profilepic 
+    {height: 450px;
     opacity: 0.85;
     margin-left: 100px;
 }
 
-.aboutmebanner {
-    height: 100vh;
+.aboutmebanner 
+   { height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .barreaboutme {
-    border-left: 0.1px;
+  .barreaboutme 
+    {border-left: 0.1px;
     border-style: solid;
     height: 200px;
-    margin: 20px;
-  }
+    margin: 20px;}
+  
 
-  .alldetailsaboutme {
-      margin-right: 100px;
-  }
+  .alldetailsaboutme 
+     { margin-right: 100px;}
+  

@@ -9,9 +9,8 @@ const AboutMe = () => {
       </div>
       <div className="barreaboutme"></div>
       <div className="alldetailsaboutme">
-        <h1><strong>To make your idea an operational product</strong></h1>
-        <h2>from scratch to a final operational product </h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper et purus id cursus. Vestibulum varius consectetur mauris a aliquam. Curabitur vel justo pretium, faucibus quam quis, congue lacus. Vivamus tristique ipsum sed libero tristique iaculis. Nulla sollicitudin metus ante, eu maximus mauris pretium quis. Morbi eu molestie ante. Nullam lobortis, mi in sodales vulputate, diam ligula molestie eros, et suscipit lorem nisl et metus. Cras vel magna nec lectus efficitur feugiat quis ut enim.</p>
+        <h1><strong>Let me picture your idea and make of your idea an operational product</strong></h1>
+        <p style={{ fontSize: "20px" }}>Always available to talk about technology, I am passionated about web development and I decided to make it my job. From the backend foundations to the frontend design, I have a keen eye for every aspect of a website. All the knowledge of web development I get from coffee all day long and the love of cats.</p>
       </div>
     </div>
     );

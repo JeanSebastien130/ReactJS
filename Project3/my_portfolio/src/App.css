@@ -16,11 +16,6 @@ li {
   width: 100%;
 }
 
-.link:visited {
-  text-decoration: none;
-  color: black;
-}
-
 .column-two {
   margin-right: 7%;
   margin-left: 7%;

@@ -1,6 +1,25 @@
 .myprojectsbanner {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
+
+.fasttrackpic {
+  height: 200px;
+}
+
+.artbnbpic {
+  height: 200px;
+}
+
+.entirecodemyprojects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.theworks {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+.flip-card-ft {
+    background-color: transparent;
+    height: 38%;
+    width: 485px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner-ft {
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background-image: url('../images/Fasttrack.png');
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card-ft:hover .flip-card-inner-ft {
+    transform: rotateY(180deg);
+    height: 100%;
+    width: 485px;
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front-ft, .flip-card-back-ft {
+    position: absolute;
+    width: 485px;
+    height: 250px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front-ft {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-ft {
+    background-color: #383838;
+    opacity: 0.7;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-back-details-ft{
+    color: white;
+  }

@@ -3,21 +3,20 @@
   }
 
 .fasttrackpic {
-  height: 250px;
+  height: 100%;
 }
 
 
 
 .artbnbpic {
-  height: 250px;
+  height: 100%;
 }
 
 .entirecodemyprojects {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 80vh;
+  justify-content: space-around;
+  height: 70vh;
 }
 
 .theworks {
@@ -29,7 +28,7 @@
 .headermyprojects{
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 0px;
 }
 

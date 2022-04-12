@@ -10,7 +10,12 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    background-image: url('../images/Fasttrack.png');
+  }
+
+  .background-reverse-abb {
+    background-image: url('../images/fasttrackhomepage.png');
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -18,6 +23,7 @@
     transform: rotateY(180deg);
     height: 100%;
     width: 485px;
+    height: 250px;
   }
   
   /* Position the front and back side */

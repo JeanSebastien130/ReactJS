@@ -3,6 +3,8 @@ import '../Stylesheet/card_ft.css'
 import '../Stylesheet/card_abb.css'
 import Fasttrack from '../images/Fasttrack.png'
 import Artbnb from '../images/Artbnb.png'
+import JavaScriptLogo from '../images/JavaScript_logo.png'
+import RubyOnRailsLogo from '../images/RubyOnRails.png'
 
 const myProjects = () => {
   return (
@@ -19,6 +21,7 @@ const myProjects = () => {
               <div className='flip-card-back-details-ft'>
                 <h1>Fast Track</h1>
                 <p style={{margin: "30px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non porttitor risus. Aenean eu ex et sem interdum auctor. Sed vel lorem ac augue rutrum tempus. Praesent sodales congue nunc, quis tincidunt odio ullamcorper eget.</p>
+                <img className='RoRLogo' src={RubyOnRailsLogo} alt="RoRLogo" />
               </div>
             </div>
           </div>
@@ -34,6 +37,8 @@ const myProjects = () => {
               <div className='flip-card-back-details-abb'>
                 <h1>Artbnb</h1>
                 <p style={{margin: "30px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non porttitor risus. Aenean eu ex et sem interdum auctor. Sed vel lorem ac augue rutrum tempus. Praesent sodales congue nunc, quis tincidunt odio ullamcorper eget.</p>
+                <img className='RoRLogo' src={RubyOnRailsLogo} alt="RoRLogo" />
+                <img className='JSLogo' src={JavaScriptLogo} alt="JSLogo" />
               </div>
             </div>
           </div>

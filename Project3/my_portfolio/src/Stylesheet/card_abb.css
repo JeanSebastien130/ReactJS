@@ -13,9 +13,7 @@
   }
 
   .background-reverse-abb {
-    background-image: url('../images/fasttrackhomepage.png');
-    background-size: cover; /* or contain depending on what you want */
-    background-position: center;
+    background-color: #022B3B;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -43,7 +41,7 @@
   
   /* Style the back side */
   .flip-card-back-abb {
-    background-color: #383838;
+    background-color: #022B3B;
     opacity: 0.7;
     color: black;
     transform: rotateY(180deg);
@@ -51,4 +49,5 @@
   
   .flip-card-back-details-abb{
     color: white;
+    height: 100%;
   }

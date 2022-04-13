@@ -13,7 +13,7 @@
   }
 
   .background-reverse-abb {
-    background-color: #022B3B;
+    background-color: #F4F4F4;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -41,13 +41,13 @@
   
   /* Style the back side */
   .flip-card-back-abb {
-    background-color: #022B3B;
+    background-color: #F4F4F4;
     opacity: 0.7;
     color: black;
     transform: rotateY(180deg);
   }
   
   .flip-card-back-details-abb{
-    color: white;
+    color: black;
     height: 100%;
   }

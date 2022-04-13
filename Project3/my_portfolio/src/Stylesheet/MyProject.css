@@ -33,13 +33,28 @@
 }
 
 .RoRLogo {
-  height: 20px;
-  margin-bottom: 10px;
+  height: 40px;
+  padding: 0px 10px;
 }
 
 .JSLogo {
-  height: 20px;
-  margin-bottom: 10px;
+  height: 40px;
+  padding: 0px 10px;
+}
+
+.FigmaLogo {
+  height: 40px;
+  padding: 0px 10px;
+}
+
+.PostgresSQLLogo{
+  height: 40px;
+  padding: 0px 10px;
+}
+
+.thelogos {
+  display: flex;
+  justify-content: center;
 }
 
 

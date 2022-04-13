@@ -5,7 +5,8 @@ import Fasttrack from '../images/Fasttrack.png'
 import Artbnb from '../images/Artbnb.png'
 import JavaScriptLogo from '../images/JavaScript_logo.png'
 import RubyOnRailsLogo from '../images/RubyOnRails.png'
-
+import FigmaLogo from '../images/figma.png'
+import PostgresSQLLogo from '../images/postgres.png'
 const myProjects = () => {
   return (
   <div className='myprojectsbanner'>  
@@ -20,8 +21,13 @@ const myProjects = () => {
             <div className='background-reverse-ft'>
               <div className='flip-card-back-details-ft'>
                 <h1>Fast Track</h1>
-                <p style={{margin: "30px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non porttitor risus. Aenean eu ex et sem interdum auctor. Sed vel lorem ac augue rutrum tempus. Praesent sodales congue nunc, quis tincidunt odio ullamcorper eget.</p>
-                <img className='RoRLogo' src={RubyOnRailsLogo} alt="RoRLogo" />
+                <p style={{margin: "20px"}}>Creation of a portfolio of stocks. Implementation of a dashboard with graphics, RestAPI's of stocks, news. From the modeling of the database to the deployment of an operational final product.</p>
+                <div className='thelogos'>
+                  <img className='RoRLogo' src={RubyOnRailsLogo} alt="RoRLogo" />
+                  <img className='JSLogo' src={JavaScriptLogo} alt="JSLogo" />
+                  <img className='FigmaLogo' src={FigmaLogo} alt="FigmaLogo" />
+                  <img className='PostgresSQLLogo' src={PostgresSQLLogo} alt="PostgresSQLLogo" />
+                </div>
               </div>
             </div>
           </div>
@@ -36,9 +42,12 @@ const myProjects = () => {
             <div className='background-reverse-abb'>
               <div className='flip-card-back-details-abb'>
                 <h1>Artbnb</h1>
-                <p style={{margin: "30px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non porttitor risus. Aenean eu ex et sem interdum auctor. Sed vel lorem ac augue rutrum tempus. Praesent sodales congue nunc, quis tincidunt odio ullamcorper eget.</p>
-                <img className='RoRLogo' src={RubyOnRailsLogo} alt="RoRLogo" />
-                <img className='JSLogo' src={JavaScriptLogo} alt="JSLogo" />
+                <p style={{margin: "30px"}}>Project realized that aims to create a clone of AirBnB. From the modeling of the database to the deployment of the website with Heroku and an adapted domain name.</p>
+                <div className='thelogos'>
+                  <img className='RoRLogo' src={RubyOnRailsLogo} alt="RoRLogo" />
+                  <img className='FigmaLogo' src={FigmaLogo} alt="FigmaLogo" />
+                  <img className='PostgresSQLLogo' src={PostgresSQLLogo} alt="PostgresSQLLogo" />
+                </div>
               </div>
             </div>
           </div>

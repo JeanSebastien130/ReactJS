@@ -1,6 +1,9 @@
-.reachmebanner {
+.reachmeentirecode {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
+
+.thewholeform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

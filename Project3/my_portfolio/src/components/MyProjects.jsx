@@ -7,6 +7,7 @@ import JavaScriptLogo from '../images/JavaScript_logo.png'
 import RubyOnRailsLogo from '../images/RubyOnRails.png'
 import FigmaLogo from '../images/figma.png'
 import PostgresSQLLogo from '../images/postgres.png'
+
 const myProjects = () => {
   return (
   <div className='myprojectsbanner'>  

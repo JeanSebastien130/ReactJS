@@ -12,6 +12,7 @@ const ReachMe = () => {
       <input type="text" name="lastName" className="lastName" tabIndex="2"/>
       <label for="lastName">Your message</label>
       <input type="text" name="lastName" className="lastName" tabIndex="2"/>
+      <button type='submit'>Submit</button>
     </div>
   </div>
   );

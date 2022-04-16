@@ -11,8 +11,8 @@ const ReachMe = () => {
         <input type="text" name="lastName" className="lastName" tabIndex="2"/>
       </div>
       <div className='mailadress'>
-        <label for="Mail adress">Your mail address</label>
-        <input type="text" name="mail" className="lastName" tabIndex="2"/>
+        <label for="Mail adress">Mail address</label>
+        <input placeholder='Mail adress...' type="text" name="mail" className="lastName" tabIndex="2"/>
       </div>
       <div className='subject'>
         <label for="Subject">Subject</label>

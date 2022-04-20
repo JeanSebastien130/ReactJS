@@ -5,7 +5,30 @@
 .thewholeform {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 70%;
+}
+
+.littletext {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.header {
+  width: 20%;
+}
+
+.paragraph {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.barrereachme {
+  border-left: 0.1px;
+  border-style: solid;
+  height: 100px;
 }
